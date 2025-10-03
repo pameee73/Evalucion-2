@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pamela Jorquera - Diseñadora Integral</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>✿PAMELA JORQUERA✿</h1>
+            <p>Diseñadora integral</p>
+
+  
+
+    
+<div style="display: flex; align-items: center; gap: 20px;">
+  <img src="img/pamee.png" style="width: 300px; height: 410px; object-fit: cover;">
+  <div>
+    <h1 style="background-color:ff6b6b; align-content: left;">¡Holaa!</h1>
+    <p style="color: white; background-color: Tomato;">Soy Pamela Jorquera, estudiante de Diseño Integral en
+la Pontificia Universidad Católica de Chile, actualmente
+cursando mi quinto semestre. Me interesa el diseño como una
+herramienta para observar, conectar y transformar.</p>
+  </div>
+
+
+        </header>
+
+        
+        </style>
+        <body>
+        	<h2>Mejora de confianza al momento de diseñar </h2>
+        	<h4> Según taller de Dieño UC</h4>
+               <canvas id="miGrafico" class="grafico"></canvas>
+      
+          <canvas id="aqui"></canvas>
+
+             <canvas id="alla"></canvas>
+
+
+             
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            new Chart("aqui", {
+                type: "scatter",
+                data: {
+                    datasets: [
+                        {
+                            pointRadius: 10,
+                            pointBackgroundColor: "rgba(255, 99, 71, 0.5)",
+                            pointBorderWidth: 0,
+                            data: [
+                                { x: 1, y: 0 },
+                                { x: 2, y: 4 },
+                                { x: 3, y: 10 },
+                                { x: 4, y: 6 },
+                                { x: 5, y: 15 },
+                                { x: 6, y: 15 },
+                               
+                            ],
+                        },
+                    ],
+                },
+               options: {
+    scales: {
+        x: {
+            title: {
+                display: true,
+                text: 'Taller diseño' 
+            },
+            ticks: {
+                callback: function(value) {
+                    const labels = ['taller 1', 'taller 2', 'taller 3', 'taller 4', 'taller 5', 'taller 6'];
+                    return labels[value - 1]; 
+                }
+            }
+        },
+        y: {
+            title: {
+                display: true,
+                text: 'Confianza' 
+            }
+        }
+    }
+}
+            });
+        </script>
+    </body>
+
+
+         
