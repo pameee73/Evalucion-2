@@ -4,7 +4,7 @@ const trabajos = [
     {
         title: "Tugas",
         category: "Textil",
-        imagen: "img/tugas.png",
+        imagen: "tugas.png",
         description: "Este proyecto fue desarrollado en el marco del Taller de Conceptualización y Problematización y consistió en la creación de un álbum de stickers",
     },
 
