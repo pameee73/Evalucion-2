@@ -11,44 +11,44 @@ const trabajos = [
       {
         title: "Igual a Jesús",
         category: "Textil",
-        imagen: "img/igual a jesus.png",
+        imagen: "igual a jesus.png",
         description: "Gráfico",
     },
     {
         title: "Chicas pesadas",
         category: "Editorial",
-        imagen: "img/album.png",
+        imagen: "album.png",
         description: "Editorial",
     },
     {
         title: "Ironman LEGO",
         category: "Modelado 3d",
-        imagen: "img/ironman lego.jpg",
+        imagen: "ironman lego.jpg",
         description: "Editorial",
     },
     {
         title: "Turi",
         category: "Gráfico",
-        imagen: "img/turi.jpeg",
+        imagen: "turi.jpeg",
         description: "Editorial",
     },
     {
         title: "Turi",
         category: "Web",
-        imagen: "img/sss.png",
+        imagen: "sss.png",
         description: "Editorial",
     },
 
  {
         title: "Turi",
         category: "Render",
-        imagen: "img/image 19.png",
+        imagen: "image 19.png",
         description: "Editorial",
     },
     {
         title: "Turi",
         category: "Render",
-        imagen: "img/turi1.jpeg",
+        imagen: "turi1.jpeg",
         description: "Editorial",
     },
 
